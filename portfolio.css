@@ -1,0 +1,128 @@
+body{
+    background-image: url("nature.jpg");
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container{
+    display: flex;
+}
+.container-1{
+    width: 600px;
+    height: 400px;
+    background-color: white;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    padding: 20px;
+    margin-top: 150px;
+}
+.img{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    margin: auto;
+    display: block;
+    position: relative;
+    top: -120px;
+
+}
+.container-1 h2{
+    position: relative;
+    bottom: 120px;
+    text-align: center;
+    line-height: 1px;
+    font-size: 20px;
+    font-size: 30px;
+}
+.container-1 h4{
+    position: relative;
+    bottom: 120px;
+    text-align: center;
+}
+.container-1 #section{
+    font-weight: lighter;
+    color: gray;
+    color: rgb(32, 31, 31); 
+    line-height: 1px;
+}
+.container-1 #skill{
+    position: relative;
+    bottom: 143px;
+    line-height: 2px;
+}
+hr{
+    width: 101%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    position: relative;
+    bottom: 140px;
+
+}
+.container-1 #section1{
+    text-align: justify;
+    font-weight: 600;
+}
+.container-1 #tech{
+    position: relative;
+    bottom: 143px;
+}
+a img{
+    height: 44px;
+    width: 44px;
+    position: relative;
+    bottom: 13px;
+    left: 6px;
+    margin-left: 20px;
+}
+.github{
+    height:32px ;
+    width: 32px;
+    position: relative;
+    bottom: 125px;
+    left: 221px;
+}
+.linkdin{
+    height:32px ;
+    width: 32px;
+    position: relative;
+    bottom: 125px;
+    left: 221px;
+}
+.btn{
+    background-color: lawngreen;
+    width: 100px;
+    font-weight: bold;
+    position: relative;
+    bottom: 96px;
+    left: 75px;
+    font-size: 17px;
+    margin-right: 20px;
+    cursor: pointer;
+    border-radius: 20px;
+}
+.btn1{
+    background-color: lawngreen;
+    width: 100px;
+    position: relative;
+    bottom: 96px;
+    left: 92px;
+    font-size: 17px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 20px;
+}
+.btn:hover{
+    background-color: olive;
+    border-color: orchid;
+    text-transform: capitalize;
+    transform: 0.4sec ease-in-out;
+}
+.btn1:hover{
+    background-color: olive;
+    border-color: orchid;
+    text-transform: capitalize;
+    transform: 0.4sec ease-in-out;
+}
